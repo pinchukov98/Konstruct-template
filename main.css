@@ -1,7 +1,14 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .header {
     position: relative;
     width: 100%;
-    height: 100vh; /* или любая нужная высота */
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -9,44 +16,53 @@
     width: 100%;
     height: 768px;
     object-fit: cover;
-    /* Кадрирует изображение без искажений */
-}
-
-body,
-html {
-    margin: 0;
-    padding: 0;
 }
 
 .header__content {
     position: absolute;
-    top: 40px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* вертикальное центрирование */
-    align-items: center; /* горизонтальное центрирование */
-    text-align: center; /* выравнивание текста внутри блока */
+    align-items: center;
+    text-align: center;
     color: white;
-    
-    
 }
 
-.text1 {
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 5px;
-    
+.logo {
+    margin-top: 40px; /* Отступ сверху для лого */
 }
+
+
+.text1 {
+    margin-top: 320px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 5.71px;
+}
+
 .text2 {
     font-size: 16px;
-    text-align: center;
+    margin-top: -45px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0px;
+    /* Отступ перед текстом "SCROLL DOWN" */
 }
 
 .text3 {
     font-size: 11px;
+    margin-top: 180px; /* "SCROLL DOWN" внизу header */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0px;
     text-align: center;
-    
+    vertical-align: bottom;
 }
