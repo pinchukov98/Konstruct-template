@@ -14,8 +14,7 @@ html {
 
 .img-header {
     width: 100%;
-    height: 768px;
-    object-fit: cover;
+    height: 768px; 
 }
 
 .header__content {
@@ -68,5 +67,43 @@ html {
 }
 
 .navbar {
+<<<<<<< Updated upstream
     color: black;
+=======
+    display: flex;
+    justify-content: space-between; /* Распределяет пространство между лого и навигацией */
+    align-items: center;
+    padding: 20px 15%; /* Добавляем отступы по бокам */
+    background-color: #FFFFFF;
+    position: relative; /* Изменяем на absolute, чтобы навбар был поверх header */
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E6E6E6; 
+}
+
+.navbar-logo {
+    height: 18px; /* Фиксированная высота логотипа */
+    width: auto; /* Ширина будет подстраиваться */
+    margin-right: 30%;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 30px; /* Увеличиваем расстояние между пунктами меню */
+}
+
+.navbar a {
+    color: #48555B;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px; /* Уменьшаем размер шрифта */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.09px; /* Добавляем межбуквенный интервал */
+}
+
+.navbar a:hover {
+    color: #00A4E5;
+>>>>>>> Stashed changes
 }
