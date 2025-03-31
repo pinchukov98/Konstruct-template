@@ -67,9 +67,6 @@ html {
 }
 
 .navbar {
-<<<<<<< Updated upstream
-    color: black;
-=======
     display: flex;
     justify-content: space-between; /* Распределяет пространство между лого и навигацией */
     align-items: center;
@@ -105,5 +102,4 @@ html {
 
 .navbar a:hover {
     color: #00A4E5;
->>>>>>> Stashed changes
 }
