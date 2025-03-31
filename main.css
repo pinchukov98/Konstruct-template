@@ -103,3 +103,44 @@ html {
 .navbar a:hover {
     color: #00A4E5;
 }
+
+.text4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2.31px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.text5 {
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0.19px;
+    vertical-align: bottom;
+}
+
+.high {
+    letter-spacing: 0.17px;
+    color: #00A4E5;
+}
+
+.create-line {
+    margin-top: 20px;
+    width: 50px;
+    border-top: 3px solid #5cf0f0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
